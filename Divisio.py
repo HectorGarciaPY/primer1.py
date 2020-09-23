@@ -1,0 +1,8 @@
+print("Division")
+print("Primer numero:")
+Primer=input()
+numerox=int(Primer)
+print("Segundo numero")
+Segundo=input()
+numeroy=int(Segundo)
+print("La division es:", numerox / numeroy ,)

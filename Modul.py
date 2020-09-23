@@ -1,0 +1,8 @@
+print("Modul")
+print("Primer numero:")
+Primer=input()
+numerox=int(Primer)
+print("Segundo numero")
+Segundo=input()
+numeroy=int(Segundo)
+print("El modulo es:", numerox % numeroy ,)

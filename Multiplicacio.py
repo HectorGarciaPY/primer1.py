@@ -1,0 +1,8 @@
+print("Multiplicacio")
+print("Primer numero:")
+Primer=input()
+numerox=int(Primer)
+print("Segundo numero")
+Segundo=input()
+numeroy=int(Segundo)
+print("La multiplicacion es:", numerox * numeroy ,)
