@@ -1,0 +1,13 @@
+print("¿Cuanto vale tu producto sin IVA?")
+print()
+precio=input()
+pr=int(precio)
+print()
+print("¿Que cantidad de IVA le quieres poner?")
+print()
+iva=int(input())
+a= iva * pr/100
+print()
+print("Tu producto con IVA vale:", a + pr )
+print()
+print("he cogido el precio de tu produco:", precio ,"y le he sumado el", iva,"% y he hecho una operacion obteniendo como resultado el precio de tu producto mas iva.")
