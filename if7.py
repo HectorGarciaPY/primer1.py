@@ -1,0 +1,6 @@
+print("Dimel primer numero:")
+a=int(input())
+print("Dimel primer numero:")
+b=int(input())
+print("Dimel primer numero:")
+c=int(input())

@@ -8,8 +8,8 @@ b=round(100-a)
 if c>0:
   print("Te has ahorrado:", c, "€.")
 if c<0:
-  print("Lo siento chavalin,")
+  print("Lo siento,")
 if b>0:
   print("Te han hecho un descuento del:", b, "%." )
 if b<0:
-  print("no te has ahorrado nada.F")
+  print("te han timado.")
