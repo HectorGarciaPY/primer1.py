@@ -1,2 +1,4 @@
 language = "python3"
-run = "python3 if11.py"
+run = "python3 selsimp1.py"
+
+
