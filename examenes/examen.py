@@ -1,0 +1,42 @@
+import random
+print("Bienvenido, escoge un luchador para jugar:")
+print("1)Son Goku \n2)Jakie Chun \n3)Krilin \n4)Tenshinhan")
+x=int(input())
+y=random.randrange(0,80)
+if x==1:
+	s=random.randrange(80,90)
+	if y>s:
+		print("Has perdido, Mr. Satan ha atacado con una fuerza de:",y)
+	elif y==s:
+		print("Has empatado.")
+	elif y<s:
+		print("Has ganado, Mr.Satan solo tenia una fuerza de:",y)
+if x==2:
+	j=random.randrange(50,80)
+	if y>j:
+		print("Has perdido, Mr. Satan ha atacado con una fuerza de:",y)
+	elif y==j:
+		print("Has empatado.")	
+	elif y<j:
+		print("Has ganado, Mr.Satan solo tenia una fuerza de:",y)			
+if x==3:
+	k=random.randrange(20,50)
+	if y>k:
+		print("Has perdido, Mr.Satan ha atacado con una fuerza de:",y)
+	elif y==k:
+		print("Has empatado.")	
+	elif y<k:
+		print("Has ganado, Mr.Satan solo tenia una fuerza de:",y)
+if x==4:
+	t=random.randrange(20,50)
+	if y>t:
+		print("Has perdido, Mr.Satan ha atacado con una fuerza de:",y)
+	elif y==t:
+		print("Has empatado.")	
+	elif y<t:
+		print("Has ganado, Mr.Satan solo tenia una fuerza de:",y)
+
+
+
+
+
