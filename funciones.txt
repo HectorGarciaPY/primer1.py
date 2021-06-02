@@ -1,0 +1,5 @@
+Empleados: 4
+Vendedores: 4
+Analistas: 2
+Directores: 3
+Presidentes: 1
